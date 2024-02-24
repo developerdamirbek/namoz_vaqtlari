@@ -40,7 +40,7 @@ function App() {
 
 
   return (
-    <div className="h-screen max-sm:h-[100%] w-full bg-no-repeat bg-cover bg-center" style={{ backgroundImage: `url(${img})` }}>
+    <div className="h-[100%] max-sm:h-[100%] w-full bg-no-repeat bg-cover bg-center" style={{ backgroundImage: `url(${img})` }}>
       <div className="container">
         <h1 className='font-bold text-white text-4xl text-center pt-10 pb-10 border-b mb-10 max-sm:text-[24px] max-sm:pt-5 max-sm:pb-5 max-sm:mb-5 '>Namoz vaqtlari</h1>
         <div className='flex items-center justify-center gap-10 mb-[20px] max-sm:mb-2 max-sm:gap-0 max-sm:justify-between'>
