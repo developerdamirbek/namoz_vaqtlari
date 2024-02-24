@@ -40,7 +40,7 @@ function App() {
 
 
   return (
-    <div className="h-[100%] max-sm:h-[100%] w-full bg-no-repeat bg-cover bg-center" style={{ backgroundImage: `url(${img})` }}>
+    <div className="h-[100%] bg-fixed max-sm:h-[100%] w-full bg-no-repeat bg-cover bg-center" style={{ backgroundImage: `url(${img})` }}>
       <div className="container">
         <h1 className='font-bold text-white text-4xl text-center pt-10 pb-10 border-b mb-10 max-sm:text-[24px] max-sm:pt-5 max-sm:pb-5 max-sm:mb-5 '>Namoz vaqtlari</h1>
         <div className='flex items-center justify-center gap-10 mb-[20px] max-sm:mb-2 max-sm:gap-0 max-sm:justify-between'>
@@ -101,7 +101,7 @@ function App() {
             </ul>
           </div>
         )}
-        <footer className='hidden py-10 max-sm:block '>
+        <footer className=' py-10 max-sm:block '>
           <p className=' text-center text-white text-[20px] '>Created by <a className='text-[#ffc700]' href="https://t.me/damir_toga">
             Damirbek
           </a></p>
